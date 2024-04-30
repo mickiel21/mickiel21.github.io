@@ -26,6 +26,11 @@ p,label{
     width: 10rem;
     height: 3rem;
 }
+
+.submit{
+    width: 8.75rem;
+    height: 3.35rem;
+}
 .social{
     width: 3rem;
     height: 3rem;
@@ -43,6 +48,10 @@ p,label{
 
 .font-cursive{
     font-family: cursive;
+}
+
+.fs-2{
+    font-size: 2rem;
 }
 
 
