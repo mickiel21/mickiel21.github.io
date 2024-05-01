@@ -14,6 +14,10 @@ label{
 .border-black{
     border-color: black !important;
 }
+
+.border-light-green{
+    border-color: #D3E97A !important;
+}
 .text-ligth-grey{
     color: #C7C7C7
 }
@@ -24,6 +28,10 @@ label{
 
 .bg-light-green{
     background-color: #D3E97A !important
+}
+
+.text-light-green{
+    color: #D3E97A !important;
 }
 
 .bg-black{
@@ -48,6 +56,11 @@ label{
     height: 3rem;
 }
 
+.github{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
 .bg-light-black{
     background-color: #222222;
 }
@@ -68,6 +81,9 @@ label{
 
 .fs-2{
     font-size: 2rem;
+}
+.fs-1-5{
+    font-size:1.5rem
 }
 
 .z-index-1{
