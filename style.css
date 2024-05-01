@@ -5,17 +5,29 @@ body{
     background: black !important;
     font-family: 'Bebas Neue', sans-serif !important;
 }
-p,label{
+p,label,span{
     color: white;
 }
+label{
+    font-family: sans-serif;
+}
 .border-black{
-    border-color: black;
+    border-color: black !important;
 }
 .text-ligth-grey{
     color: #C7C7C7
 }
+
+.bg-cream-black{
+    background-color: #1A1A1A !important;
+}
+
 .bg-light-green{
     background-color: #D3E97A !important
+}
+
+.bg-black{
+    background-color: black;
 }
 
 .rounded-2{
@@ -50,10 +62,17 @@ p,label{
     font-family: cursive;
 }
 
+.font-san-serif{
+    font-family: sans-serif;
+}
+
 .fs-2{
     font-size: 2rem;
 }
 
+.z-index-1{
+    z-index: 1;
+}
 
 
 
