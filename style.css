@@ -90,6 +90,11 @@ label{
     z-index: 1;
 }
 
+.row-column-gap{
+    row-gap: 1.5rem;
+    column-gap: 2rem;
+}
+
 
 
 
