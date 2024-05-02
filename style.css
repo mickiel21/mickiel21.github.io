@@ -18,7 +18,7 @@ label{
 .border-light-green{
     border-color: #D3E97A !important;
 }
-.text-ligth-grey{
+.text-light-grey{
     color: #C7C7C7
 }
 
@@ -107,7 +107,11 @@ label{
     column-gap: 2rem;
 }
 
-
+@media (min-width: 375px) {
+    .d-xs-none {
+        visibility: hidden;
+    }
+}
 
 
 
