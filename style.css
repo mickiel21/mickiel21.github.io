@@ -110,11 +110,9 @@ label{
     column-gap: 2rem;
 }
 
-@media (min-width: 375px) {
-    .d-xs-none {
-        visibility: hidden;
-    }
+a:hover{
+    color:#D3E97A !important ;
+    text-decoration: none  !important;
 }
-
 
 
