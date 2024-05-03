@@ -37,7 +37,7 @@
         </div>
          <div class="row mt-5">
           <div class="col-6">
-              <button class="bg-light-green rounded-2 contact border-black">Contact me<img style="margin-left: 16px;" src="/images/circle (1).png" alt=""></button>
+              <button onclick="scrollContact()" class="bg-light-green rounded-2 contact border-black">Contact me<img style="margin-left: 16px;" src="/images/circle (1).png" alt=""></ onclick="scrollContact()">
           </div> 
           <div class="col-2">
             <a class="rounded-circle social bg-light-black border-black" href="https://linkedin.com/in/mickieloraa" target="_blank" ><img  src="/images/bxl-linkedin.svg (1).png" alt=""></a>
@@ -474,3 +474,12 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
   </body>
 </html>
+
+<script>
+  const element = document.getElementById("contact");
+
+
+  function scrollContact() {
+    element.scrollIntoView(false);
+  }
+</script>
