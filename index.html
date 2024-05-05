@@ -12,6 +12,9 @@
     <title>Mickiel Oraa - Full Stack Developer Portfolio</title>
   </head>
   <body>
+    <div id="loading-screen">
+     <img class="spinner" src="/images/android-chrome-512x512.png" alt="">
+    </div>
     <nav>
       <div class="container">
         <div class="row">
@@ -489,6 +492,9 @@
 </script>
 
 <script>
+  window.addEventListener('load', function() {
+    document.body.classList.add('loaded');
+  });
   const constraints = {
       name: {
           presence: { allowEmpty: false }
