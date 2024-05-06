@@ -147,3 +147,7 @@ a:hover{
 .loaded #loading-screen {
     display: none;
 }
+
+html {
+    scroll-behavior: smooth;
+  }
