@@ -250,7 +250,7 @@
 
     <footer class="container mt-5">
       <div class="row-12">
-        <p class="py-5">© 2024 Mickiel Oraa</p>
+        <p class="py-5">© <span id="year"></span> Mickiel Oraa</p>
       </div>
     </footer>
     <!-- Optional JavaScript -->
@@ -261,6 +261,7 @@
 </html>
 
 <script>
+  document.getElementById("year").textContent = new Date().getFullYear();
   const element = document.getElementById("contact");
 
 
